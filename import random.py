@@ -206,16 +206,16 @@ while opcao != '4':
         if resp == 'n':
             opcao = '4'
 
-            despedida = random.randint(1, 4)
+despedida = random.randint(1, 4)
 
-        if despedida == 1:
-            print("\nAdeus nobre guerreiro!")
+if despedida == 1:
+    print("\nAdeus nobre guerreiro!")
 
-        elif despedida == 2:
-            print("\nSagas sobre seus feitos serão cantadas por muitas eras" , nome)
+elif despedida == 2:
+    print("\nSagas sobre seus feitos serão cantadas por muitas eras" , nome)
 
-        elif despedida == 3:
-            print("\nHasta la vista" , nome)
+elif despedida == 3:
+    print("\nHasta la vista" , nome)
 
-        elif despedida == 4:
-            print("\nFalô" , nome)
+elif despedida == 4:
+    print("\nFalô" , nome)
